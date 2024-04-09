@@ -71,7 +71,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 //printf functions below
 //actual printf & placeholder check - first file
-int		ft_printf_start(const char	*s,	...);
+int		ft_printf(const char	*s, ...);
 void	ft_check_placeholder(const char s, va_list *args, int *length);
 //printing char, string, ints & unsign ints - second file 
 void	ft_putchar_length(char c, int *length);
